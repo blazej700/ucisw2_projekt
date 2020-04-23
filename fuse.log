@@ -1,0 +1,27 @@
+Running: /home/blazejs/ise/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/blazejs/xilnix/project_1/a1_a1_sch_tb_isim_beh.exe -prj /home/blazejs/xilnix/project_1/a1_a1_sch_tb_beh.prj work.a1_a1_sch_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/blazejs/xilnix/project_1/onewire.vhd" into library work
+Parsing VHDL file "/home/blazejs/xilnix/project_1/a1.vhf" into library work
+Parsing VHDL file "/home/blazejs/xilnix/project_1/t1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 100656 KB
+Fuse CPU Usage: 980 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity onewire [onewire_default]
+Compiling architecture iobuf_v of entity IOBUF [\IOBUF("DONT_CARE",12,"0",true,"...]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture behavioral of entity a1 [a1_default]
+Compiling architecture behavioral of entity a1_a1_sch_tb
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable /home/blazejs/xilnix/project_1/a1_a1_sch_tb_isim_beh.exe
+Fuse Memory Usage: 673680 KB
+Fuse CPU Usage: 1050 ms
+GCC CPU Usage: 330 ms

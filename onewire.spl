@@ -1,0 +1,11 @@
+[Inputs]
+q_in
+clk
+write_0
+write_1
+read_bit
+reset_s
+[Outputs]
+q_out
+test
+[BiDir]

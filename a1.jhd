@@ -1,0 +1,3 @@
+MODULE a1
+	SUBMODULE onewire
+		INSTANCE XLXI_6
